@@ -52,7 +52,7 @@ Installation
 Test cases
 ==========
 
-Test case files are located in the ``login_tests`` directory. Click file names below to see the latest versions online.
+Test case files are located in the ``tests/`` directory. Click file names below to see the latest versions online.
 
 `valid_login.robot <https://github.com/andresceleste/web_automation/blob/main/tests/valid_login.robot>`_
     A test suite with a single test for valid login.
@@ -77,8 +77,8 @@ This command will execute all test cases located in the tests/ directory.
 Generated results
 -----------------
 
-After running tests you will get report and log in HTML format. Example files are also visible online in case you are
-not interested in running the tests yourself:
+After running tests you will get report and log in HTML format. These files will be located in the ``results/``
+Example files are also visible online in case you are not interested in running the tests yourself:
 
 - `report.html <https://github.com/andresceleste/web_automation/blob/main/results/report.html>`_
 - `log.html <https://github.com/andresceleste/web_automation/blob/main/results/log.html>`_
