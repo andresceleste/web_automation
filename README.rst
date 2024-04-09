@@ -73,6 +73,7 @@ Running Tests
 
 This command will execute all test cases located in the tests/ directory.
 ::
+
     robot -d ./results tests/
 
 Generated results
