@@ -1,3 +1,4 @@
+=============================================
 Web Testing with Robot Framework and Selenium
 =============================================
 
@@ -12,6 +13,7 @@ libraries implemented using Python or Java.
 
 Getting Started
 ===============
+
 Prerequisites
 -------------
 
@@ -21,30 +23,29 @@ Prerequisites
 
 Installation
 ------------
+1. Clone this repository::
 
-1. Clone this repository
-::
-   git clone https://github.com/andresceleste/web_automation.git
+    git clone https://github.com/andresceleste/web_automation.git
 
-2. Navigate to the project directory
-::
+2. Navigate to the project directory::
+
     cd path/to/project/directory
 
-3. Create a virtual environment (optional but recommended)
-::
+3. Create a virtual environment (optional but recommended)::
+
     python -m venv venv
 
 4. Activate the virtual environment
-    * On Windows:
-      ::
-          venv\Scripts\activate
+    * On Windows::
 
-    * On macOS and Linux:
-      ::
-          source venv/bin/activate
+        venv\Scripts\activate
 
-5. Install the required dependencies:
-::
+    * On macOS and Linux::
+
+        source venv/bin/activate
+
+5. Install the required dependencies::
+
     pip install -r requirements.txt
 
 
@@ -55,12 +56,12 @@ Test case files as well as a resource file used by them are located in the ``log
 below to
 see the latest versions online.
 
-`valid_login.robot`_
+`valid_login.robot <https://github.com/andresceleste/web_automation/blob/main/tests/valid_login.robot>`_
     A test suite with a single test for valid login.
 
     This test has a workflow that is created using keywords in the imported resource file.
 
-`invalid_login.robot`_
+`invalid_login.robot <https://github.com/andresceleste/web_automation/blob/main/tests/invalid_login.robot>`_
     A test suite containing tests related to invalid login.
 
     These tests are data-driven by their nature. They use a single keyword, specified with the ``Test Template``
@@ -81,16 +82,16 @@ Generated results
 After running tests you will get report and log in HTML format. Example files are also visible online in case you are
 not interested in running the tests yourself:
 
-- `report.html`_
-- `log.html`_
+- `report.html <https://github.com/andresceleste/web_automation/blob/main/results/report.html>`_
+- `log.html <https://github.com/andresceleste/web_automation/blob/main/results/log.html>`_
 
 Project Structure
 =================
 The project follows a typical structure for Robot Framework projects:
 
-* tests/: Contains test suites and test cases written in Robot Framework syntax.
-* `resource.robot`_: Contains reusable resources such as libraries, variables, keywords, and test data.
-* results/: Stores test execution results including logs, reports, and screenshots.
+* `tests/ <https://github.com/andresceleste/web_automation/tree/main/tests>`_: Contains test suites and test cases written in Robot Framework syntax.
+* `resource.robot <https://github.com/andresceleste/web_automation/blob/main/resources/resource.robot>`_: Contains reusable resources such as libraries, variables, keywords, and test data.
+* `results/ <https://github.com/andresceleste/web_automation/tree/main/results>`_: Stores test execution results including logs, reports, and screenshots.
 
 Contributing
 ------------
