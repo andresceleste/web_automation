@@ -52,7 +52,8 @@ Installation
 Test cases
 ==========
 
-Test case files are located in the ``tests/`` directory. Click file names below to see the latest versions online.
+Test case files are located in the ``tests/`` directory. The `Sauce Labs demo website <https://www.saucedemo.com/>`_ was used to demonstrate web
+automation using SeleniumLibrary. Click on the file names below to see the latest versions online.
 
 `valid_login.robot <https://github.com/andresceleste/web_automation/blob/main/tests/valid_login.robot>`_
     A test suite with a single test for valid login.
