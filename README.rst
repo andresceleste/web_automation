@@ -52,9 +52,7 @@ Installation
 Test cases
 ==========
 
-Test case files as well as a resource file used by them are located in the ``login_tests`` directory. Click file names
-below to
-see the latest versions online.
+Test case files are located in the ``login_tests`` directory. Click file names below to see the latest versions online.
 
 `valid_login.robot <https://github.com/andresceleste/web_automation/blob/main/tests/valid_login.robot>`_
     A test suite with a single test for valid login.
