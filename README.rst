@@ -56,12 +56,12 @@ below to
 see the latest versions online.
 
 `valid_login.robot`_
-A test suite with a single test for valid login.
+    A test suite with a single test for valid login.
 
     This test has a workflow that is created using keywords in the imported resource file.
 
 `invalid_login.robot`_
-A test suite containing tests related to invalid login.
+    A test suite containing tests related to invalid login.
 
     These tests are data-driven by their nature. They use a single keyword, specified with the ``Test Template``
     setting, that is called with different arguments to cover different scenarios.
@@ -78,7 +78,7 @@ This command will execute all test cases located in the tests/ directory.
 Generated results
 -----------------
 
-After `running tests`_ you will get report and log in HTML format. Example files are also visible online in case you are
+After running tests you will get report and log in HTML format. Example files are also visible online in case you are
 not interested in running the tests yourself:
 
 - `report.html`_
